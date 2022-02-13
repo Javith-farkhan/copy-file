@@ -25,8 +25,11 @@ End the program.
 
 ## PROGRAM:
 with open("File1.txt","r") as fp:
+
 x = fp.read()
+
 with open("File2.txt","w") as fp1:
+
 fp1.write(x)
 
 ### OUTPUT:
